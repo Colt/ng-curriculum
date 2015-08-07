@@ -1,4 +1,4 @@
-##2 Way Data Binding
+#2 Way Data Binding
 
 Let's start with something simple that showcases the power of Angular. 
 

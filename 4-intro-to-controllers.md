@@ -1,3 +1,5 @@
+#Intro to Controllers
+
 Controllers are simply functions that provide properties and functionality for use in the view.
 
 When a new controller is created, Angular automatically gives it a brand new `$scope`. The `$scope` object is a JS object that glues together controllers and views.  Properties that are on the `$scope` object are available to the view and the controller. This will make more sense after a few examples!

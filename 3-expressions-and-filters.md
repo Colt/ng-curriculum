@@ -1,4 +1,4 @@
-##Expressions and Built-In Filters
+#Expressions and Built-In Filters
 
 Angular expressions are "Javascript-like snippets that are usually placed in bindings like "{{ expression }}".  We've already used expressions to render a property that we set using `ng-model`.  However, expressions are not just limited to displaying single properties.
 
