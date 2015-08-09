@@ -1,4 +1,4 @@
-##Events
+#Angular Events
 
 ###ng-click
 
