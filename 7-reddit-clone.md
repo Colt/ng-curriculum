@@ -28,3 +28,4 @@ Bonus Features
 * A user can choose to sort ascending or descending
 * A user can favorite posts and view all favorites in a separate tab
 * A user can upload an image(no backend involved)
+

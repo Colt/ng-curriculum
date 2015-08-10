@@ -31,7 +31,7 @@ Let's try using the built-in `currency` filter to display the above numbers as a
 Notice that this filter does 2 things for us: it rounds the data to 2 decimal places and prepends a dollar sign.
 
 
-**QUICK EXERCISE: Change the above code so that our currency filter uses a Euro symbol instead of a Dollar sign.  It should display "€ 3.14".  You'll need to do some research of your own.**
+**QUICK EXERCISE: Change the above code so that our currency filter uses a Euro symbol instead of a Dollar sign. You'll need to do some research of your own.**
 
 **EXERCISE: Add a text input to a page that displays user input in all caps and all lowercase. You will need to use 2 built-in filters that we haven't covered. Use the following gif as a reference**
 
@@ -45,13 +45,19 @@ Let's try using another built-in filter to format our data.  Angular has a `numb
 {{3.14159265359 | number:1}}
 ```
 
-**EXERICSE: Create a drop down menu where the user can select how many digits to round pi to.  It should work like the following gif. BONUS: Find out how to pluralize "digit" correctly. Angular comes with a built-in way of pluralizing things!**
+**EXERICSE: Create a drop down menu where the user can select how many digits to round pi to. BONUS: Find out how to pluralize "digit" correctly. Angular comes with a built-in way of pluralizing things!  It should work like the following gif.**
 
 ![](http://zippy.gfycat.com/LegalThickIndochinesetiger.gif)
-
 
 **EXERCISE: Create a simple tip calculator using the basic Angular concepts that we've covered so far(and nothing more advanced).  A user can enter a meal price into an input, then select a percentage to tip from a dropdown menu.  Display the resulting tip at the bottom of the page. Check out the following gif to see how it should work.**
 
 ![](http://zippy.gfycat.com/FlamboyantQuickGordonsetter.gif)
 
 **EXERCISE: With one single expression, prove that the context angular expressions run is not the window object.  What is it instead?**
+
+Questions:
+
+* What are Angular expressions? How do they compare to EJS/ERB tags?
+* What happens when you write invalid code in an expression?  What type of error do you get?
+* What are Angular filters?  Name 4 built-in filters, including one that we haven't used yet.
+* We'll soon see how to create custom filters.  What is a use case for a custom filter?

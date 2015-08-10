@@ -1,4 +1,6 @@
-#Angular Events
+#Events
+
+Angular provides event-handling directives to help us write interactive applications.
 
 ###ng-click
 
@@ -32,7 +34,7 @@ Now let's implement `pickRandomNumber()`. Remember that `ng-click` calls a metho
 	}
 ```
 
-And that's it!  Try clicking your button and watch as the number changes atomically on the screen.
+And that's it!  Try clicking your button and watch as the number changes automatically on the screen.
 
 **EXERCISE:  Explain in as much detail as you can what happens when you click the button.  Why does `number` update in the template without us telling it to?**
 
@@ -67,3 +69,4 @@ There are a bunch of other built-in event directives like
 They all work just like `ng-click`.  When a specific event is triggered, they will run a given method on the current $scope.  
 
 **EXERCISE: Add a feature to a previous exercise using one of the event directives listed above**
+
