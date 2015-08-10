@@ -74,4 +74,5 @@ Questions:
 Resources:
 
 * [Angular Docs](https://docs.angularjs.org/api)
+* [Thinking in Angular](http://stackoverflow.com/questions/14994391/thinking-in-angularjs-if-i-have-a-jquery-background/15012542#15012542)
 
