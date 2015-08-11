@@ -76,7 +76,7 @@ app.controller('HomeController', function($scope){
 Let's add a property to the scope called `message`.  Set it to whatever you want:
 
 ```
-$scope.message = "W	elcome!"
+$scope.message = "Welcome!"
 ```
 
 Now let's create the template.  Inside of `app/partials` create a `home.html` file.
@@ -111,8 +111,11 @@ Make sure the second route works correctly by visiting `http://localhost:8000/#/
 **QUESTION: Why does Angular put a `#` in the route path?** 
 
 **EXERCISE: Figure out how to set a "catchall" route that will render the `home.html` template if the user visits any other route**
+
 **EXERCISE: Make a simple portfolio site using Angular.  It should have 3 routes: "projects", "bio", and "resume".  Add a Bootstrap navbar to the layout file with links to all 3 routes. Figure out how to have the navbar reflect the current route that a user is on.**
+
 **EXERCISE: Make a simple route-based calculator.  When a user visits "/add/4/10", display "14".  Do the same thing for division.  To accomplish this, your routes will need to have path variables.  Research how to define variable segments in your route.  Next, you'll need to research how you access the value of path variables inside of a controller.  You'll need to find the angular equivalent of the `params` hash in rails**
+
 **EXERCISE: Refactor the above exercise so that your calculator works using the query string.  When a user visits "/add/?x=4&y=10", display "14".  You will need to research how to access query string data inside of a controller.**
 
 **EXERCISE: Configure Angular so that routes do not contain `#`'s. Research!**

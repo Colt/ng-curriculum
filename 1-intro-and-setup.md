@@ -18,12 +18,10 @@ Unit 1:
 
 Unit 2:
 
+ * A New Structure
  * Routing
  * Custom Filters
- * Controller Revisited
- * Debugging Angular Apps
- * Form validations
- * Dependency Injection
+ * Controllers Revisited
  * HTTP Service
  * Custom Services/Factories
  * Structuring Angular Apps for 2.0

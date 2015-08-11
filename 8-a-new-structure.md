@@ -30,8 +30,7 @@ In order for this structure to work, make sure you correctly include all the scr
 
 The next thing we'll want to do is serve up our application using some sort of server.  For now we can just run `python -m SimpleHTTPServer` inside of the app directory.  Visit `localhost:8000` to see the application.
 
-**EXERCISE:Serve your reddit clone app using SimpleHTTPServer.  Make sure everything works correctly.**
-
+**EXERCISE: Serve your reddit clone app using SimpleHTTPServer.  Make sure everything works correctly.**
 
 Questions:
 
