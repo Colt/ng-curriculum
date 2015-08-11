@@ -65,7 +65,7 @@ We're going to start by setting up a very simple Angular app. Soon we'll learn a
 
 Questions:
 
-* Why learn Angular JS over other frameworks like Angular, Backbone, Knockout,etc?
+* Why learn Angular JS over other frameworks like Ember, Backbone, Knockout, etc?
 * People have some very strong opinions about Angular.  What are 3 common complaints people have about Angular?
 * Is Angular an MVC framework?
 * Why did I say jQuery is "sort of" a dependency of Angular? Does it depend on it or not?!
