@@ -38,7 +38,7 @@ Here's a possible solution that will replace all `_`'s with `-`'s:
   });
 ```
 
-**EXERCISE: Fix our `kebab` filter so that it doesn't break when you pass it a non-number input.  It should just return the unaltered input.**
+**EXERCISE: Fix our `kebab` filter so that it doesn't break when you pass it a number input.  It should just return the unaltered input.**
 
 **EXERCISE: Write a `camel` filter which will take EITHER a snake_cased or kebab-cased string and convert it to camelCase. So `{{"hello-world" | camel}}` should display "helloWorld", and `{{"hello_world" | camel}}` should also display "helloWorld"**
 
