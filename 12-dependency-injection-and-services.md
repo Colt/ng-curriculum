@@ -24,9 +24,9 @@ app.controller('MathController', function($scope, $routeParams){
 
 **EXERCISE:  In the above example (MathController) does the order of the dependencies matter?  Does $scope have to come before $routeParams?  Do the names matter?  Could we name them something else?**
 
-**EXERCISE: DO NOT SKIP THIS EXERCISE.  In production code, you typically want your javascript file to be as small as possible so that it can be downloaded faster.  To make the files smaller, developers minify their js files.  Find a minification tool and minify your js code.  Update your html file so that it now points to your newly minified js files.  Does your angular app still work?  If it stopped working, what is the problem? **
+**EXERCISE: DO NOT SKIP THIS EXERCISE.  In production code, you typically want your javascript file to be as small as possible so that it can be downloaded faster.  To make the files smaller, developers minify their js files.  Find a minification tool and minify your js code.  Update your html file so that it now points to your newly minified js files.  Does your angular app still work?  If it stopped working, what is the problem?**
 
-**EXERCISE: So far we have mainly seen one way to do dependency injection.  Research and figure out the other two ways.  Which one is the best practice? **
+**EXERCISE: So far we have mainly seen one way to do dependency injection.  Research and figure out the other two ways.  Which one is the best practice?**
 
 ![](http://html5hub.com/wp-content/uploads/2013/11/superA.png)
 
