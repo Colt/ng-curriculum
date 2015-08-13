@@ -22,7 +22,7 @@ Show page:
   - Displays all the details of the specific movie, including the poster image of the movie.
  
  
- Bonus:
+Bonus:
  
  - 	A user can specify what type of data they are searching for: movie, series, or episode.
  - A user can check a box "Get Rotten Tomatoes Data" which will also fetch data from Rotten Tomatoes(using the OMDB API)
