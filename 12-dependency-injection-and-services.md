@@ -101,7 +101,7 @@ app.controller('ContactController', ["$scope", "contacts", function($scope, cont
 
 #### Deferreds and Promises
 
-In jquery you saw promises often.  The most common use case was an ajax call.  For example, you might have some code like this in jquery:
+In jQuery you saw promises often.  The most common use case was an ajax call.  For example, you might have some code like this in jQuery:
 
 ```
 $.get("/puppies").done(function() { // do something here})
