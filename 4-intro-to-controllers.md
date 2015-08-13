@@ -47,7 +47,7 @@ Let's reuse our code from the very first example.  Try this
 ```
 	<div ng-controller="MyFirstController">
 		<h1>My name is: {{name}}</h1>
-		<input type="text" placeholder="What is your name">
+		<input ng-model="name" type="text" placeholder="What is your name">
 	</div>
 	
 ```	
